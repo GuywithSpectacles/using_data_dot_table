@@ -59,8 +59,5 @@ setkey(DT1, x); setkey(DT2, x)
 
 merge(DT1, DT2)
 
-
-
-
-#Data.Table Sort with Data.Frame
-
+library(usethis)
+use_github(protocol = 'https', auth_token = Sys.getenv("GITHUB_PAT") )
